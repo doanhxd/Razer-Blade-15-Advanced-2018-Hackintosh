@@ -103,6 +103,7 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 ### Where to begin
 **Use stonevil's guide for modding BIOS**
 * [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
+
 **Use Dortania's guide for doing Config.plist and create Bootable disk**
 * [OpenCore Vanilla laptop guide](https://dortania.github.io/vanilla-laptop-guide)
 and must have some research then...
