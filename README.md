@@ -1,5 +1,15 @@
 # Razer Blade 15 Advanced 2018 Hackintosh - OpenCore
 **Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS!**
+
+SUPPORT
+---
+**I have no access anymore to Razer Blade notebooks and not be able to test properly and update documentation. I open for any cooperation and will try maintain this repository as much as possible. Please fill free to create Pull Requests.**
+
+Intro
+---
+
+![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
+
 ## Current version
 * OpenCore - 0.5.9
 * Catalina - 10.15.5 (19F101)
