@@ -18,6 +18,8 @@ This BIOS is actual only for Razer Blade 15 Advanced 2018
 
 | | Version |
 | ---: | :--- |
+| ``OpenCore`` | 0.5.9 |
+| ``Catalina`` | 10.15.5(19F101) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
@@ -38,10 +40,10 @@ Hardware
 | ``Chipset`` | Mobile Intel HM370 | No issues |
 | ``CPU`` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues |
 | ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 64GB | No issues |
-| ``GPU`` | Intel UHD 630 | No issues |
-| ``dGPU`` | Nvidia 2070 Max-Q (8GB GDDR6 VRAM) | Nvidia Drivers absent for Mojave. ACPI should be patched to disable dGPU |
+| ``GPU`` | Intel UHD Graphics 630 | No issues |
+| ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR6 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
 | ``Storage`` | Samsung PM981 256GB NVMe M.2 | Incompatible firmware. You can install macOS on compatible  |
-| ``Screen`` | 15.6" Full HD 144Hz, 1920 x 1080 IPS |  No issues |
+| ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 IPS |  No issues |
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
 | ``WiFi`` | Intel Wireless-AC 9560NGW | Drivers absent for macOS. Should replaced |
 | ``Input & Output`` | USB 3.1 Gen 1 (USB-A) x3 | No issues |
