@@ -10,10 +10,6 @@ Intro
 
 ![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
 
-## Current version
-* OpenCore - 0.5.9
-* Catalina - 10.15.5 (19F101)
-
 This BIOS is actual only for Razer Blade 15 Advanced 2018
 
 | | Version |
