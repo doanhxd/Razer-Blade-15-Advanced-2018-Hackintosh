@@ -120,19 +120,20 @@ and you must have some research then...
 * **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning, and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
+
 # Razer Blade 15 Advanced 2018 Hackintosh - OpenCore
 **Note: TÔI KHÔNG CHỊU TRÁCH NHIỆM NẾU LAPTOP BẠN GẶP VẤN ĐỀ KHI SỬ DỤNG GUIDE CỦA TÔI!**
 
 HỖ TRỢ
 ---
-**.Để cài đặt thành công và hoàn thiện Hackintosh một cách "clean" nhất, bạn nên tìm hiểu thêm từ nhiều nguồn tài liệu khác nhau và đặt câu hỏi với 'Google'.**
+**Để cài đặt thành công và hoàn thiện Hackintosh `clean` nhất, bạn nên tìm hiểu thêm từ nhiều nguồn tài liệu khác nhau và đặt câu hỏi với `Google`**
 
 Giới thiệu
 ---
 
 ![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
 
-Phiên bản BIOS này chỉ đúng với laptop Razer Blade 15 Advanced 2018
+**Note: Phiên bản BIOS này chỉ đúng với Laptop Razer Blade 15 Advanced 2018**
 
 | | Phiên bản |
 | ---: | :--- |
@@ -145,7 +146,7 @@ Phiên bản BIOS này chỉ đúng với laptop Razer Blade 15 Advanced 2018
 ## Từ chối
 Repo này không có mục đích gì khác ngoài chia sẻ.
 Tôi chỉ muốn chia sẻ kinh nghiệm và trải nghiệm của mình về việc cài đặt Hackintosh với mọi người.
-Đây cũng không phải bài hướng dẫn chia tiết (step-by-step) mà các bạn hãy nên tìm hiểu thêm nếu muốn cài đặt thành công và hoàn chỉnh thiết bị muốn Hackintosh.
+Đây cũng không phải bài hướng dẫn chi tiết (step-by-step) mà các bạn hãy nên tìm hiểu thêm nếu muốn cài đặt thành công và hoàn chỉnh Hackintosh.
 Đối với những bạn có cùng mã laptop với tôi thì cứ thoải mái copy - paste EFI vào USB cài đặt của bạn và Install macOS.
 
 Phần cứng
@@ -170,10 +171,10 @@ Phần cứng
 | | Mini DisplayPort 1.4 | Mini DisplayPort xuất từ card Nvidia nên sẽ không hoạt động trên macOS |
 | ``Âm thanh`` | Realtek ALC298 | Không lỗi. Cần patch DSDT/SSDT để sử lỗi sleep/wake |
 | ``Pin`` | 80Wh | Khoảng 3-5h sử dụng tác vụ thông thường.  Cần patch DSDT/SSDT để hiển thị thông số Pin |
-| ``Bàm phím`` | Per-key RGB powered by Razer Chroma N-Key rollover backlit | Không lỗi. Original Razer Chroma software absent for macOS. Many thanks to [BlvckBytes](https://github.com/BlvckBytes) for [MenuBar app](https://github.com/BlvckBytes/RazerControl/releases) to control Razer Blade keyboard and logo RGB lighting |
+| ``Bàm phím`` | Per-key RGB powered by Razer Chroma N-Key rollover backlit | No issues. Original Razer Chroma software absent for macOS. Many thanks to [BlvckBytes](https://github.com/BlvckBytes) for [MenuBar app](https://github.com/BlvckBytes/RazerControl/releases) to control Razer Blade keyboard and logo RGB lighting |
 | ``Touchpad`` | Precision Glass | Không lỗi. Phải patch DSDT/SSDT để kích hoạt Trackpad |
 | ``Kích thước`` | 17.8mm x 235mm x 355mm | Không lỗi |
-| ``Cân nặng`` | 2.21 kg | ACPI patch không có tác dụng với cái này :D. /sarcasm |
+| ``Cân nặng`` | 2.21 kg | ACPI patch không có tác dụng với cái này :D |
 | ``Sạc`` | 230W Power Adapter | Không lỗi |
 
 Nâng cấp phần cứng và các công cụ đi kèm
@@ -187,7 +188,7 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 | Phụ kiện | Mô tả | Liên kết Amazon |
 | ---: | :--- | :--- |
 | ``Chuột`` | Trackpad không hoạt động trong quá trình cài đặt macOS | [Amazon](https://www.amazon.com/AmazonBasics-3-Button-Wired-Mouse-Black/dp/B005EJH6RW/ref=sr_1_3?keywords=amazon+basic+mouse&qid=1561714362&s=gateway&sr=8-3) |
-| ``USB`` nên có bộ nhớ ít nhất 16GB | USB để tạo bộ cài Hackintosh | [Amazon](https://www.amazon.com/gp/product/B076GXJJRD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) |
+| ``USB`` | USB để tạo bộ cài Hackintosh (8-16GB) | [Amazon](https://www.amazon.com/gp/product/B076GXJJRD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) |
 | ``cáp chuyển USB-A sang USB-C`` | Phục vụ cho việc Mapping cổng USB | [Amazon](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYXVE/ref=pd_hpb_a2a_sims_6/130-2479265-2893400?_encoding=UTF8&pd_rd_i=B01GGKYYT0&pd_rd_r=54b9f737-919c-11e9-b9d7-6915ce2a8dc3&pd_rd_w=j9bw6&pd_rd_wg=IVvh1&pf_rd_p=bfc589eb-d865-496f-a10b-5e00902c2113&pf_rd_r=G68JVK6HBAFKEDA75MYY&refRID=G68JVK6HBAFKEDA75MYY&th=1) |
 
 
@@ -195,10 +196,10 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 
 | Card WiFi | Mô tả | Liên kết eBay hoặc AliExpress | Chứng nhận |
 | ---: | :--- | :--- | :--- |
-| ``BCM94352Z (DW-1560)`` | Nên dùng. 2 ăng-ten. Không lỗi. Cần thêm kext phù hợp. Giá cả phải chăng \$24-60 | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
+| ``BCM94352Z (DW-1560)`` | Khuyên dùng. 2 ăng-ten. Không lỗi. Cần thêm kext phù hợp. Giá cả phải chăng \$24-60 | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 | ``BCM943602BAED (DW-1830)`` | 3 ăng-ten. RBA15 có 2 ăng-ten nên không khuyến khích lắm. Giá khoảng \$60-120 trên AliExpress | [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190707194727&SearchText=BCM943602BAED+DW1830&switch_new_app=y) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 
-**Bộ nhớ trong**
+**Storage**
 
 | NVMe | Hỗ trợ 4K | Liên kết Amazon | Chứng nhận |
 | ---: | :--- | :--- | :--- |
@@ -240,6 +241,5 @@ nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn 
 
 ### Thông tin thêm
 ---
-| ``GPI0 pinning`` | Bao gồm hot patch & SSDT cho việc patch nóng Trackpad | Hiện tại trong EFI của mình đang là pinning `0x64` |
-![VoodooI2C](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning)
-
+``GPI0 pinning`` Bao gồm hot patch & SSDT cho việc patch nóng Trackpad. Hiện tại patch SSDT-I2C trong EFI của mình đang là pinning `0x64`
+[VoodooI2C](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning)
