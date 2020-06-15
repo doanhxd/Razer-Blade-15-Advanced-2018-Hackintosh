@@ -120,6 +120,7 @@ and you must have some research then...
 * **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning, and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
+---
 
 **Note: KHÔNG CHỊU TRÁCH NHIỆM NẾU LAPTOP BẠN GẶP VẤN ĐỀ KHI SỬ DỤNG GUIDE NÀY!**
 
@@ -146,7 +147,7 @@ Giới thiệu
 Repo này không có mục đích gì khác ngoài chia sẻ.
 Tôi chỉ muốn chia sẻ kinh nghiệm và trải nghiệm của mình về việc cài đặt Hackintosh với mọi người.
 Đây cũng không phải bài hướng dẫn chi tiết (step-by-step) mà các bạn hãy nên tìm hiểu thêm nếu muốn cài đặt thành công và hoàn chỉnh Hackintosh.
-Đối với những bạn có cùng mã laptop với tôi thì cứ thoải mái copy - paste EFI vào USB cài đặt của bạn và Install macOS.
+Nếu bạn có cùng mã Laptop với tôi thì hãy copy - paste EFI vào USB cài đặt của bạn và cài thôi.
 
 Phần cứng
 ---
