@@ -121,8 +121,7 @@ and you must have some research then...
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning, and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
 
-# Razer Blade 15 Advanced 2018 Hackintosh - OpenCore
-**Note: TÔI KHÔNG CHỊU TRÁCH NHIỆM NẾU LAPTOP BẠN GẶP VẤN ĐỀ KHI SỬ DỤNG GUIDE CỦA TÔI!**
+**Note: KHÔNG CHỊU TRÁCH NHIỆM NẾU LAPTOP BẠN GẶP VẤN ĐỀ KHI SỬ DỤNG GUIDE NÀY!**
 
 HỖ TRỢ
 ---
@@ -241,5 +240,7 @@ nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn 
 
 ### Thông tin thêm
 ---
-``GPI0 pinning`` Bao gồm hot patch & SSDT cho việc patch nóng Trackpad. Hiện tại patch SSDT-I2C trong EFI của mình đang là pinning `0x64`
 [VoodooI2C](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning)
+``GPI0 pinning`` Bao gồm hot patch & SSDT cho việc patch nóng Trackpad. Hiện tại patch SSDT-I2C trong EFI của mình đang là pinning `0x64`
+
+
