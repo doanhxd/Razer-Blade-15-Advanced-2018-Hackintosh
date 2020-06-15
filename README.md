@@ -128,11 +128,6 @@ HỖ TRỢ
 ---
 **Để cài đặt thành công và hoàn thiện Hackintosh `clean` nhất, bạn nên tìm hiểu thêm từ nhiều nguồn tài liệu khác nhau và đặt câu hỏi với `Google`**
 
-Giới thiệu
----
-
-![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
-
 **Note: Phiên bản BIOS này chỉ đúng với Laptop Razer Blade 15 Advanced 2018**
 
 | | Phiên bản |
