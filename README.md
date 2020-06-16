@@ -122,6 +122,8 @@ and you must have some research then...
 
 ---
 
+##TIẾNG VIỆT
+
 **Note: KHÔNG CHỊU TRÁCH NHIỆM NẾU LAPTOP BẠN GẶP VẤN ĐỀ KHI SỬ DỤNG GUIDE NÀY!**
 
 HỖ TRỢ
