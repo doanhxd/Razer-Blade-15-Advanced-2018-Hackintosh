@@ -122,7 +122,6 @@ and you must have some research then...
 
 ---
 
-##TIẾNG VIỆT
 
 **Note: KHÔNG CHỊU TRÁCH NHIỆM NẾU LAPTOP BẠN GẶP VẤN ĐỀ KHI SỬ DỤNG GUIDE NÀY!**
 
@@ -140,7 +139,7 @@ HỖ TRỢ
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
 
-## Từ chối
+## Lưu ý
 Repo này không có mục đích gì khác ngoài chia sẻ.
 Tôi chỉ muốn chia sẻ kinh nghiệm và trải nghiệm của mình về việc cài đặt Hackintosh với mọi người.
 Đây cũng không phải bài hướng dẫn chi tiết (step-by-step) mà các bạn hãy nên tìm hiểu thêm nếu muốn cài đặt thành công và hoàn chỉnh Hackintosh.
