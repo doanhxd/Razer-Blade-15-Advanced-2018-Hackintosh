@@ -37,7 +37,7 @@ Hardware
 | ``CPU`` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues |
 | ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 64GB | No issues |
 | ``GPU`` | Intel UHD Graphics 630 | No issues |
-| ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR6 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
+| ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR5 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
 | ``Storage`` | Samsung SM961 256GB NVMe M.2 | No issues  |
 | ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 IPS |  No issues |
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
@@ -65,7 +65,7 @@ The bundled ``WiFI`` and ``NVMe`` is not compatible with macOS and should be rep
 | Accessories | Description | Amazon URL |
 | ---: | :--- | :--- |
 | ``USB mouse`` | Trackpad will be unavailable during macOS installation procedure | [Amazon](https://www.amazon.com/AmazonBasics-3-Button-Wired-Mouse-Black/dp/B005EJH6RW/ref=sr_1_3?keywords=amazon+basic+mouse&qid=1561714362&s=gateway&sr=8-3) |
-| ``USB storage`` with at least 16Gb storage | Installation USB media | [Amazon](https://www.amazon.com/gp/product/B076GXJJRD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) |
+| ``USB storage`` with at least 16GB storage | Installation USB media | [Amazon](https://www.amazon.com/gp/product/B076GXJJRD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) |
 | ``USB-A to USB-C cable`` | For USB ports detection procedure | [Amazon](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYXVE/ref=pd_hpb_a2a_sims_6/130-2479265-2893400?_encoding=UTF8&pd_rd_i=B01GGKYYT0&pd_rd_r=54b9f737-919c-11e9-b9d7-6915ce2a8dc3&pd_rd_w=j9bw6&pd_rd_wg=IVvh1&pf_rd_p=bfc589eb-d865-496f-a10b-5e00902c2113&pf_rd_r=G68JVK6HBAFKEDA75MYY&refRID=G68JVK6HBAFKEDA75MYY&th=1) |
 
 
@@ -142,7 +142,7 @@ HỖ TRỢ
 ## Lưu ý
 Repo này không có mục đích gì khác ngoài chia sẻ.
 Tôi chỉ muốn chia sẻ kinh nghiệm và trải nghiệm của mình về việc cài đặt Hackintosh với mọi người.
-Đây cũng không phải bài hướng dẫn chi tiết (step-by-step) mà các bạn hãy nên tìm hiểu thêm nếu muốn cài đặt thành công và hoàn chỉnh Hackintosh.
+Đây không phải bài hướng dẫn chi tiết (step-by-step) mà các bạn nên tìm hiểu thêm nếu muốn cài đặt thành công và hoàn chỉnh Hackintosh.
 Nếu bạn có cùng mã Laptop với tôi thì hãy copy - paste EFI vào USB cài đặt của bạn và cài thôi.
 
 Phần cứng
@@ -192,8 +192,8 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 
 | Card WiFi | Mô tả | Liên kết eBay hoặc AliExpress | Chứng nhận |
 | ---: | :--- | :--- | :--- |
-| ``BCM94352Z (DW-1560)`` | Khuyên dùng. 2 ăng-ten. Không lỗi. Cần thêm kext phù hợp. Giá cả phải chăng \$24-60 | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
-| ``BCM943602BAED (DW-1830)`` | 3 ăng-ten. RBA15 có 2 ăng-ten nên không khuyến khích lắm. Giá khoảng \$60-120 trên AliExpress | [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190707194727&SearchText=BCM943602BAED+DW1830&switch_new_app=y) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
+| ``BCM94352Z (DW-1560)`` | Đề xuất. Có 2 ăng-ten. Không lỗi. Cần thêm kext phù hợp. Giá cả phải chăng \$24-60 | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
+| ``BCM943602BAED (DW-1830)`` | Có 3 ăng-ten. RBA15 chỉ có 2 ăng-ten nên không khuyến khích lắm. Giá khoảng \$60-120 trên AliExpress | [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190707194727&SearchText=BCM943602BAED+DW1830&switch_new_app=y) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 
 **Storage**
 
@@ -212,7 +212,7 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 macOS hỗ trợ native 4k blocks. Kiểm tra **NVMe format**.
 Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12). Samsung EVO 970 1Tb NVMe and Sabrent Rocket 1Tb NMVe have the same Read/Write performance. But Samsung EVO stays about 8-12° C hotter on heave load. Even with additional passive cooling.
 
-**Note: Nên sử dụng ít nhất 1TB SSD để dualboot Windows 10.**
+**Note: Nên sử dụng ít nhất 512GB SSD để dualboot với Windows 10.**
 
 
 **RAM**
@@ -228,10 +228,10 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 * [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
 
 ### Bắt đầu từ đâu?
-**Làm theo guide mod BIOS của stonevil**
+**Làm theo hướng dẫn cách Mod BIOS của stonevil(Razer Blade only)**
 * [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
 
-**Làm theo guide của Dortania để tạo file config.plist và tạo USB Boot**
+**Làm theo hướng dẫn của Dortania để tạo file config.plist và tạo USB Boot**
 * [OpenCore Vanilla laptop guide](https://dortania.github.io/vanilla-laptop-guide)
 nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn nhé... :D
 
