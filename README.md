@@ -15,7 +15,7 @@ This BIOS is actual only for Razer Blade 15 Advanced 2018
 | | Version |
 | ---: | :--- |
 | ``OpenCore`` | 0.5.9 |
-| ``Catalina`` | 10.15.5(19F101) |
+| ``Catalina`` | 10.15.5 (19F101) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
@@ -29,7 +29,7 @@ Though you can just grab and use this if you have same or very similar laptop mo
 Hardware
 ---
 
-**Razer Blade 15 Advanced 2018**
+**Razer Blade 15 Advanced 2018 - RZ09-0238**
 
 | | Specifications | macOS 10.15 Catalina compatibility |
 | ---: | :--- | :--- |
@@ -148,7 +148,7 @@ Nếu bạn có cùng mã Laptop với tôi thì hãy copy - paste EFI vào USB 
 Phần cứng
 ---
 
-**Razer Blade 15 Advanced 2018**
+**Razer Blade 15 Advanced 2018 - RZ09-0238**
 
 | | Thông số | Tương thích với macOS 10.15 - Catalina |
 | ---: | :--- | :--- |
