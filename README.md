@@ -1,5 +1,5 @@
 # Razer Blade 15 Advanced 2018 Hackintosh - OpenCore
-**Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS!**
+**Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS GUIDE!**
 
 SUPPORT
 ---
@@ -51,7 +51,7 @@ Hardware
 | ``Keyboard`` | Per-key RGB powered by Razer Chroma N-Key rollover backlit | No issues. Original Razer Chroma software absent for macOS. Many thanks to [BlvckBytes](https://github.com/BlvckBytes) for [MenuBar app](https://github.com/BlvckBytes/RazerControl/releases) to control Razer Blade keyboard and logo RGB lighting |
 | ``Touchpad`` | Precision Glass | No issues. ACPI should be patched to enable trackpad |
 | ``Dimensions`` | 17.8mm x 235mm x 355mm | |
-| ``Weight`` | 2.21 kg | ACPI patches will not help with this. /sarcasm |
+| ``Weight`` | 2.21 kg | ACPI patches will not help with this. |
 | ``Power`` | 230W power adapter | |
 
 Hardware Upgrades and Tools
@@ -183,7 +183,7 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 
 | Phụ kiện | Mô tả | Liên kết Amazon |
 | ---: | :--- | :--- |
-| ``Chuột`` | Trackpad không hoạt động trong quá trình cài đặt macOS | [Amazon](https://www.amazon.com/AmazonBasics-3-Button-Wired-Mouse-Black/dp/B005EJH6RW/ref=sr_1_3?keywords=amazon+basic+mouse&qid=1561714362&s=gateway&sr=8-3) |
+| ``Chuột`` | Trackpad sẽ không hoạt động trong quá trình cài đặt macOS | [Amazon](https://www.amazon.com/AmazonBasics-3-Button-Wired-Mouse-Black/dp/B005EJH6RW/ref=sr_1_3?keywords=amazon+basic+mouse&qid=1561714362&s=gateway&sr=8-3) |
 | ``USB`` | USB để tạo bộ cài Hackintosh (8-16GB) | [Amazon](https://www.amazon.com/gp/product/B076GXJJRD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) |
 | ``cáp chuyển USB-A sang USB-C`` | Phục vụ cho việc Mapping cổng USB | [Amazon](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYXVE/ref=pd_hpb_a2a_sims_6/130-2479265-2893400?_encoding=UTF8&pd_rd_i=B01GGKYYT0&pd_rd_r=54b9f737-919c-11e9-b9d7-6915ce2a8dc3&pd_rd_w=j9bw6&pd_rd_wg=IVvh1&pf_rd_p=bfc589eb-d865-496f-a10b-5e00902c2113&pf_rd_r=G68JVK6HBAFKEDA75MYY&refRID=G68JVK6HBAFKEDA75MYY&th=1) |
 
@@ -222,6 +222,9 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 | ``Ballistix Sport LT 32GB`` | 2x16GB | 2667 | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/) |
 | ``Kingston Technology HyperX Impact 32GB`` | 2x16GB | 2667 | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
 ## Tài liệu nghiên cứu
+
+Many thanks to
+
 * [Dortania](https://dortania.github.io/vanilla-laptop-guide/) - for vanilla guides
 * [Acidanthera](https://github.com/acidanthera) - for OpenCore and lots of kexts
 * [RehabMan](https://github.com/RehabMan) - for ACPI patching guides
