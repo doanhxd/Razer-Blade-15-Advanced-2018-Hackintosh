@@ -190,14 +190,14 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 
 **WiFi**
 
-| Card WiFi | Mô tả | Liên kết eBay hoặc AliExpress | Chứng nhận |
+| Card WiFi | Mô tả | eBay hoặc AliExpress | Chứng nhận |
 | ---: | :--- | :--- | :--- |
 | ``BCM94352Z (DW-1560)`` | Đề xuất. Có 2 ăng-ten. Không lỗi. Cần thêm kext phù hợp. Giá cả phải chăng \$24-60 | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 | ``BCM943602BAED (DW-1830)`` | Có 3 ăng-ten. RBA15 chỉ có 2 ăng-ten nên không khuyến khích lắm. Giá khoảng \$60-120 trên AliExpress | [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190707194727&SearchText=BCM943602BAED+DW1830&switch_new_app=y) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 
 **Storage**
 
-| NVMe | Hỗ trợ 4K | Liên kết Amazon | Chứng nhận |
+| NVMe | Hỗ trợ 4K | Amazon | Chứng nhận |
 | ---: | :--- | :--- | :--- |
 | ``Samsung EVO 970 NVMe`` | KHÔNG | [Amazon](https://www.amazon.com/gp/product/B07DB942BT/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) | [cộng đồng](https://www.tonymacx86.com) |
 | ``Samsung EVO 970 Pro NVMe`` | KHÔNG | [Amazon](https://www.amazon.com/Samsung-PCI-Express-Solid-State-V-NAND/dp/B07DFJ3YQR/ref=sr_1_4?keywords=Samsung+970+EVO+Pro&qid=1560233808&s=electronics&sr=1-4) | [cộng đồng](https://www.tonymacx86.com) |
@@ -217,7 +217,7 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 
 **RAM**
 
-| RAM | Dung lượng | Tốc độ | CL | Liên kết Amazon | Chứng nhận |
+| RAM | Dung lượng | Tốc độ | CL | Amazon | Chứng nhận |
 | ---: | :--- | :--- | :--- | :--- | :--- |
 | ``Ballistix Sport LT 32GB`` | 2x16GB | 2667 | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/) |
 | ``Kingston Technology HyperX Impact 32GB`` | 2x16GB | 2667 | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
