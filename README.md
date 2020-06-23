@@ -158,7 +158,7 @@ Phần cứng
 | ``GPU`` | Intel UHD Graphics 630 | Không lỗi |
 | ``dGPU`` | Nvidia 1060 with Max-Q Design (6GB GDDR5 VRAM) | Nvidia Drivers không hỗ trợ Catalina. Cần phải patch DSDT/SSDT để tắt dGPU |
 | ``Ổ cứng`` | Samsung SM961 256GB NVMe M.2 | Không lỗi  |
-| ``Màn hình`` | 15.6" Full HD 60Hz, 1920 x 1080 IPS |  Không lỗi |
+| ``Màn hình`` | 15.6" Full HD 60Hz (1920 x 1080) IPS |  Không lỗi |
 | ``Webcam`` | Windows Hello built-in IR HD Webcam (1MP / 720P) |  Không lỗi. Windows Hello không hỗ trợ trên macOS |
 | ``WiFi`` | Intel Wireless-AC 9560NGW | Drivers chưa hỗ trợ macOS. Nên thay card wifi hoặc dùng USB wifi có hỗ trợ macOS |
 | ``Input & Output`` | USB 3.1 Gen 1 (USB-A) x3 | Không lỗi |
