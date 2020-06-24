@@ -94,28 +94,32 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 
 **Note: I do recommend to use at least 1Tb NVMe for dual boot with Windows 10.**
 
-
 **RAM**
 
 | Memory module | Modules size | Speed | CL | Amazon URL | Confirmation |
 | ---: | :--- | :--- | :--- | :--- | :--- |
 | ``Ballistix Sport LT 32GB`` | 2x16Gb | 2666 | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/) |
 | ``Kingston Technology HyperX Impact 32GB`` | 2x16Gb | 2666 | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
+
 ## Gratitude
+
 * [Dortania](https://dortania.github.io/vanilla-laptop-guide/) - for vanilla guides
 * [Acidanthera](https://github.com/acidanthera) - for OpenCore and lots of kexts
 * [RehabMan](https://github.com/RehabMan) - for ACPI patching guides
 * [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
 
 ### Where to begin
+
 **Use stonevil's guide for modding BIOS**
 * [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
 
 **Use Dortania's guide for doing config.plist and create Bootable USB**
+
 * [OpenCore Vanilla laptop guide](https://dortania.github.io/vanilla-laptop-guide)
 and you must have some research then...
 
 ### Specific things
+
 * **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning, and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
@@ -126,6 +130,7 @@ and you must have some research then...
 
 HỖ TRỢ
 ---
+
 **Để cài đặt thành công và hoàn thiện Hackintosh `clean` nhất, bạn nên tìm hiểu thêm từ nhiều nguồn tài liệu khác nhau và đặt câu hỏi với `Google`**
 
 **Note: Phiên bản BIOS này chỉ đúng với Laptop Razer Blade 15 Advanced 2018**
@@ -206,8 +211,6 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 | ``HP EX900 M.2 NVMe`` | - | [Amazon](https://www.amazon.com/HP-EX900-Internal-Solid-5Xm46Aa/dp/B07MFBNMF1/ref=sr_1_3?keywords=HP+EX900+NVME+1TB+drive&qid=1561283379&s=gateway&sr=8-3) | [konohasaint](https://www.tonymacx86.com/members/konohasaint.88998/) |
 | ``Samsung PM981`` | CÓ | Có sẵn trên Razer Blade | [suyukai](https://www.tonymacx86.com/members/suyukai.2249983/) |
 
-**Note: SSD NVMe pm981 tích hợp trên Razer Blade 15 có thể hoạt động với kext và ACPI hot patch. Thông tin trên post của ``suyukai`` [I find a way to use macOS on SSD(pm981) in blade!...](https://www.tonymacx86.com/threads/guide-razer-blade-15-2018-detailed-install-guide-high-sierra-10-13-6-17g2208-17g5019.264017/page-65#post-1969367)**
-
 macOS hỗ trợ native 4k blocks. Kiểm tra **NVMe format**.
 Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12). Samsung EVO 970 1Tb NVMe and Sabrent Rocket 1Tb NMVe have the same Read/Write performance. But Samsung EVO stays about 8-12° C hotter on heave load. Even with additional passive cooling.
 
@@ -231,6 +234,7 @@ Many thanks to
 * [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
 
 ### Bắt đầu từ đâu?
+
 **Làm theo hướng dẫn cách Mod BIOS của stonevil(Razer Blade only)**
 * [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
 
@@ -240,6 +244,7 @@ nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn 
 
 ### Thông tin thêm
 ---
+
 [VoodooI2C](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning)
 ``GPI0 pinning`` Bao gồm hot patch & SSDT cho việc patch nóng Trackpad. Hiện tại patch SSDT-I2C trong EFI của mình đang là pinning `0x64`
 
