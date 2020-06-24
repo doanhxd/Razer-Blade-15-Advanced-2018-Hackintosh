@@ -220,7 +220,8 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 | ---: | :--- | :--- | :--- | :--- | :--- |
 | ``Ballistix Sport LT 32GB`` | 2x16GB | 2667 | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/) |
 | ``Kingston Technology HyperX Impact 32GB`` | 2x16GB | 2667 | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
-## Tài liệu nghiên cứu
+
+## Tài liệu tham khảo
 
 Many thanks to
 
