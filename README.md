@@ -247,5 +247,3 @@ nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn 
 
 [VoodooI2C](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning)
 ``GPI0 pinning`` Bao gồm hot patch & SSDT cho việc patch nóng Trackpad. Hiện tại patch SSDT-I2C trong EFI của mình đang là pinning `0x64`
-
-
