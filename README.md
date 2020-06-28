@@ -251,4 +251,4 @@ nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn 
 ### Todo List
 1. Update EFI for macOS 11 - Big Sur
 2. Update RM.md
-3. 
+3. Prepare for a force
