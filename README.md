@@ -240,7 +240,8 @@ Many thanks to
 
 **Làm theo hướng dẫn của Dortania để tạo file config.plist và tạo USB Boot**
 * [OpenCore Vanilla laptop guide](https://dortania.github.io/vanilla-laptop-guide)
-nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn nhé... :D
+
+Các bạn nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn nhé... :D
 
 ### Thông tin thêm
 ---
@@ -251,4 +252,4 @@ nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hackintosh hơn 
 ### Todo
 1. Prepare for macOS 11 - Big Sur
 2. Update EFI - Bootloader
-3.
+3. 
