@@ -199,7 +199,7 @@ Card ``WiFi`` tích hợp không hoạt động trên macOS. Hãy tham khảo m�
 | ``BCM94352Z (DW-1560)`` | Đề xuất. Có 2 ăng-ten. Không lỗi. Cần thêm kext phù hợp. Giá cả phải chăng \$24-60 | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 | ``BCM943602BAED (DW-1830)`` | Có 3 ăng-ten. RBA15 chỉ có 2 ăng-ten nên không khuyến khích lắm. Giá khoảng \$60-120 trên AliExpress | [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190707194727&SearchText=BCM943602BAED+DW1830&switch_new_app=y) | [cộng đồng](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 
-**Storage**
+**Ổ cứng**
 
 | NVMe | Hỗ trợ 4K | Amazon | Chứng nhận |
 | ---: | :--- | :--- | :--- |
