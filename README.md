@@ -171,7 +171,7 @@ Phần cứng
 | | Mini DisplayPort 1.4 | Mini DisplayPort xuất từ card Nvidia nên sẽ không hoạt động trên macOS |
 | ``Âm thanh`` | Realtek ALC298 | Không lỗi. Cần patch DSDT/SSDT để sử lỗi sleep/wake |
 | ``Pin`` | 80Wh | Khoảng 3-5h sử dụng tác vụ thông thường.  Cần patch DSDT/SSDT để hiển thị thông số Pin |
-| ``Bàm phím`` | Per-key RGB powered by Razer Chroma N-Key rollover backlit | No issues. Original Razer Chroma software absent for macOS. Many thanks to [BlvckBytes](https://github.com/BlvckBytes) for [MenuBar app](https://github.com/BlvckBytes/RazerControl/releases) to control Razer Blade keyboard and logo RGB lighting |
+| ``Bàm phím`` | Per-key RGB powered by Razer Chroma N-Key rollover backlit | No issues. Original Razer Chroma software absent for macOS. Many thanks to [BlvckBytes](https://github.com/BlvckBytes), [MenuBar app](https://github.com/BlvckBytes/RazerControl/releases) to control Razer Blade keyboard and logo RGB lighting |
 | ``Touchpad`` | Precision Glass | Không lỗi. Phải patch DSDT/SSDT để kích hoạt Trackpad |
 | ``Kích thước`` | 17.8mm x 235mm x 355mm | Không lỗi |
 | ``Cân nặng`` | 2.21 kg | ACPI patch không có tác dụng với cái này :D |
