@@ -252,4 +252,4 @@ Các bạn nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hacki
 ### Todo
 1. Prepare for macOS 11 - Big Sur
 2. Update EFI - Bootloader
-3. Hi
+3. Hihi
