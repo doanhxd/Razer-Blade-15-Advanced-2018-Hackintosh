@@ -252,4 +252,3 @@ Các bạn nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hacki
 ### Todo
 1. Prepare for macOS Big Sur
 2. Update EFI - OpenCore
-3. z nb
