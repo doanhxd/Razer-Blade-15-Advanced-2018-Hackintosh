@@ -250,5 +250,5 @@ Các bạn nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hacki
 ``GPI0 pinning`` Bao gồm hot patch & SSDT cho việc patch nóng Trackpad. Hiện tại patch SSDT-I2C trong EFI của mình đang là pinning `0x64`
 
 ### Todo
-1. Prepare for macOS Big Sur
+1. Prepare for macOS Big Sur, hihi
 2. Updated 10.15.6 with OpenCore 0.6.0 Beta
