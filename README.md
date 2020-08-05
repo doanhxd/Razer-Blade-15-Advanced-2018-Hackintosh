@@ -14,7 +14,7 @@ This BIOS is actual only for Razer Blade 15 Advanced 2018
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.0 (Beta) |
+| ``OpenCore`` | 0.6.0 |
 | ``Catalina`` | 10.15.6 (19G73) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
@@ -137,7 +137,7 @@ HỖ TRỢ
 
 | | Phiên bản |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.0 (Beta) |
+| ``OpenCore`` | 0.6.0 |
 | ``Catalina`` | 10.15.6 (19G73) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
@@ -251,5 +251,4 @@ Các bạn nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hacki
 
 ### Todo
 1. Prepare for macOS Big Sur
-2. Updated 10.15.6 with OpenCore 0.6.0 Beta...
-3. Prepare OC 0.6.0 Official
+2. Updated 10.15.6 with OpenCore 0.6.0...
