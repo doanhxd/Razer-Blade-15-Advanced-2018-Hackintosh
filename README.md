@@ -251,4 +251,4 @@ Các bạn nên tìm hiểu thêm từ nhiều nguồn để hoàn thiện Hacki
 
 ### Todo
 1. Prepare for macOS Big Sur
-2. Updated 10.15.6 with OpenCore 0.6.0..hih
+2. Updated 10.15.6 with OpenCore 0.6.0..h
