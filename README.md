@@ -10,11 +10,11 @@ Intro
 
 ![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
 
-This BIOS is actual only for Razer Blade 15 Advanced 2018
+This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.0 |
+| ``OpenCore`` | 0.6.1 (Beta) commit fa58908 |
 | ``Catalina`` | 10.15.6 (19G73) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
@@ -25,6 +25,15 @@ This repository has no other purpose but sharing.
 I want to share my hackintosh configuration for this particular laptop with the whole world.
 This is not a step by step guide, rather a thing that can greatly help you on your way of turning this or similar laptop into a hackintosh.
 Though you can just grab and use this if you have same or very similar laptop model, I greatly encourage you not do so, but instead read all the things I will mention below and get some knowledge.
+
+## Hmmm...
+
+* Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (I use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
+
+* If you're using BCM9432Z Wifi card... Enable AirportBrcmFixup.kext(wifi) and all BrcmPatchRAM(bluetooth) kexts in config.plist
+
+* Create one-key cpufriend if you often use battery, power-plug always is not recommended for best performance 
+
 
 Hardware
 ---
@@ -126,5 +135,5 @@ and you must have some research then...
 ---
 
 ### Todo
-1. Prepare for macOS Big Sur (almost done)...
-2. Updated 10.15.6 with OpenCore 0.6.0...
+1. Prepare for macOS Big Sur (testing)...
+2. Updated 10.15.6 with OpenCore 0.6.1...
