@@ -135,5 +135,5 @@ and you must have some research then...
 ---
 
 ### Todo
-1. Prepare for macOS Big Sur (testing)
+1. Prepare for macOS Big Sur (testing)..
 2. Updated 10.15.6 with OpenCore 0.6.1...
