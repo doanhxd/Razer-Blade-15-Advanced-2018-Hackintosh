@@ -15,7 +15,7 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 | | Version |
 | ---: | :--- |
 | ``OpenCore`` | 0.6.1 (Beta) commit fa58908 |
-| ``Catalina`` | 10.15.6 (19G73) |
+| ``Catalina`` | 10.15.6 (19G2021) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
