@@ -3,7 +3,7 @@
 
 SUPPORT
 ---
-**I have no access anymore to Razer Blade notebooks and not be able to test properly and update documentation. I open for any cooperation and will try maintain this repository as much as possible. Please fill free to create Pull Requests.**
+**I have no access anymore to Razer Blade notebooks and not be able to test properly and update documentation. I open for any cooperation and will try maintain this repository as much as possible. Please feel free to create Pull Requests.**
 
 Intro
 ---
@@ -14,7 +14,7 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.1 (Beta) commit fa58908 |
+| ``OpenCore`` | 0.6.1 (Beta) |
 | ``Catalina`` | 10.15.6 (19G2021) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
