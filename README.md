@@ -120,17 +120,17 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 ### Where to begin
 
 **Use stonevil's guide for modding BIOS**
-* [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh)
+* [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
 
 **Use Dortania's guide for doing config.plist and create Bootable USB**
 
-* [OpenCore Vanilla laptop guide](https://dortania.github.io/vanilla-laptop-guide)
+* [OpenCore Vanilla laptop guide](https://dortania.github.io/OpenCore-Install-Guide)
 and you must have some research then...
 
 ### Specific things
 
 * **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock
-* **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning, and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
+* **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - [GPI0 Pinning](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning), and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
 ---
 
