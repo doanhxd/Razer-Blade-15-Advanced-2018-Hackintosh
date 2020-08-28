@@ -112,7 +112,7 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 
 ## Gratitude
 
-* [Dortania](https://dortania.github.io/vanilla-laptop-guide/) - for vanilla guides
+* [Dortania](https://dortania.github.io/) - for vanilla guides
 * [Acidanthera](https://github.com/acidanthera) - for OpenCore and lots of kexts
 * [RehabMan](https://github.com/RehabMan) - for ACPI patching guides
 * [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
@@ -129,7 +129,7 @@ and you must have some research then...
 
 ### Specific things
 
-* **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock
+* **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - [GPI0 Pinning](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning), and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
 ---
