@@ -14,8 +14,8 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.1 (Beta) |
-| ``Catalina`` | 10.15.6 (19G2021) |
+| ``OpenCore`` | 0.6.2 (Beta) |
+| ``Catalina`` | 10.15.6 (19G2531) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
@@ -112,7 +112,7 @@ Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/a
 
 ## Gratitude
 
-* [Dortania](https://dortania.github.io/) - for vanilla guides
+* [Dortania](https://dortania.github.io/) - for Vanilla guides
 * [Acidanthera](https://github.com/acidanthera) - for OpenCore and lots of kexts
 * [RehabMan](https://github.com/RehabMan) - for ACPI patching guides
 * [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
@@ -136,4 +136,4 @@ and you must have some research then...
 
 ### Todo
 1. Prepare for macOS Big Sur (testing)...
-2. Updated 10.15.6 with OpenCore 0.6.1...
+2. Updated 10.15.6 (19G2531) with OpenCore 0.6.2...
