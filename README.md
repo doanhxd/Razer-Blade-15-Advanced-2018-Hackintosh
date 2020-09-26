@@ -15,7 +15,7 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 | | Version |
 | ---: | :--- |
 | ``OpenCore`` | 0.6.2 (Beta) |
-| ``Catalina`` | 10.15.6 (19G2531) |
+| ``Catalina`` | 10.15.7 (19H2) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
@@ -136,4 +136,4 @@ and you must have some research then...
 
 ### Todo
 1. Prepare for macOS Big Sur (testing)...
-2. Updated 10.15.6 (19G2531) with OpenCore 0.6.2...
+2. Updated 10.15.7 (19H2) with OpenCore 0.6.2...
