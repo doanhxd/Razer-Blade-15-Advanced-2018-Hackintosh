@@ -14,7 +14,7 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.3 (Beta) |
+| ``OpenCore`` | 0.6.2 (RELEASE) |
 | ``Catalina`` | 10.15.7 (19H2) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
@@ -38,13 +38,13 @@ Though you can just grab and use this if you have same or very similar laptop mo
 Hardware
 ---
 
-**Razer Blade 15 Advanced 2018 - RZ09-0238**
+**Razer Blade 15 Advanced 2018 - RZ09-02385**
 
 | | Specifications | macOS 10.15 Catalina compatibility |
 | ---: | :--- | :--- |
 | ``Chipset`` | Mobile Intel HM370 | No issues |
 | ``CPU`` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues |
-| ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 64GB | No issues |
+| ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 32GB | No issues |
 | ``GPU`` | Intel UHD Graphics 630 | No issues |
 | ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR5 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
 | ``Storage`` | Samsung SM961 256GB NVMe M.2 | No issues  |
@@ -135,5 +135,5 @@ and you must have some research then...
 ---
 
 ### Todo
-1. Prepare for macOS Big Sur (testing)...
-2. Updated 10.15.7 (19H2) with OpenCore 0.6.3...
+1. Prepare for macOS Big Sur (Testing)...
+2. Updated 10.15.7 (19H2) with OpenCore 0.6.2 RELEASE...
