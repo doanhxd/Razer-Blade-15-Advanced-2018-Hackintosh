@@ -630,7 +630,7 @@
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>USB Map</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
