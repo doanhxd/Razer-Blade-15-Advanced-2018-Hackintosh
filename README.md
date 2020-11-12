@@ -1,4 +1,4 @@
-# Razer Blade 15 Advanced 2018 Hackintosh - OpenCore (10.15.7)
+# Razer Blade 15 Advanced 2018 Hackintosh - OpenCore (Big Sur - 11.0.1)
 **Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS GUIDE!**
 
 SUPPORT
@@ -14,11 +14,17 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.2 (RELEASE) |
+| ``OpenCore`` | 0.6.3 (RELEASE) |
 | ``Catalina`` | 10.15.7 (19H2) |
+| ``Big Sur`` | 11.0.1 (20B28) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
+
+## Big Sur Updated
+
+![1](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/BigSur.png)
+
 
 ## Disclaimer
 This repository has no other purpose but sharing.
@@ -40,14 +46,14 @@ Hardware
 
 **Razer Blade 15 Advanced 2018 - RZ09-02385**
 
-| | Specifications | macOS 10.15 Catalina compatibility |
+| | Specifications | macOS 10.15 Catalina/Big Sur compatibility |
 | ---: | :--- | :--- |
 | ``Chipset`` | Mobile Intel HM370 | No issues |
 | ``CPU`` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues |
 | ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 32GB | No issues |
 | ``GPU`` | Intel UHD Graphics 630 | No issues |
 | ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR5 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
-| ``Storage`` | Samsung SM961 256GB NVMe M.2 | No issues  |
+| ``Storage`` | Samsung SM961 256GB NVMe M.2 | Replaced with Kingston A2000 to update Big Sur  |
 | ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 IPS |  No issues |
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
 | ``WiFi`` | Intel Wireless-AC 9560NGW | Drivers absent for macOS. Should replaced |
@@ -135,5 +141,5 @@ and you must have some research then...
 ---
 
 ### Todo
-1. Prepare for macOS Big Sur (Testing)...
-2. Updated 10.15.7 (19H2) with OpenCore 0.6.2 RELEASE...
+1.  Updated macOS Big Sur (Done)...
+2. Updated 10.15.7 (19H15) with OpenCore 0.6.3 RELEASE...
