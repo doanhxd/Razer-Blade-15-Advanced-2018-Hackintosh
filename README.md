@@ -8,7 +8,11 @@ SUPPORT
 Intro
 ---
 
+## Big Sur Updated
+
 ![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
+
+![1](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/BigSur.png)
 
 This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
@@ -20,11 +24,6 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
-
-## Big Sur Updated
-
-![1](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/BigSur.png)
-
 
 ## Disclaimer
 This repository has no other purpose but sharing.
