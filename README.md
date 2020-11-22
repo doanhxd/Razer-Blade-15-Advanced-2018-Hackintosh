@@ -3,7 +3,10 @@
 
 SUPPORT
 ---
-**I have no access anymore to Razer Blade notebooks and not be able to test properly and update documentation. I open for any cooperation and will try maintain this repository as much as possible. Please feel free to create Pull Requests.**
+
+**I have no access anymore to Razer Blade notebooks and not be able to test properly and update documentation.**
+
+**I open for any cooperation and will try maintain this repository as much as possible. Please feel free to create Pull Requests.**
 
 Intro
 ---
@@ -46,17 +49,17 @@ Hardware
 
 **Razer Blade 15 Advanced 2018 - RZ09-02385**
 
-| | Specifications | macOS 10.15 Catalina/Big Sur compatibility |
+| | Specifications | macOS 10.15 Catalina & Big Sur compatibility |
 | ---: | :--- | :--- |
 | ``Chipset`` | Mobile Intel HM370 | No issues |
 | ``CPU`` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues |
 | ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 32GB | No issues |
 | ``GPU`` | Intel UHD Graphics 630 | No issues |
 | ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR5 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
-| ``Storage`` | Samsung SM961 256GB NVMe M.2 | Replaced with Kingston A2000 to update Big Sur  |
+| ``Storage`` | Samsung SM961 256GB NVMe M.2 | I've replaced with Kingston A2000 to update Big Sur  |
 | ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 IPS |  No issues |
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
-| ``WiFi`` | Intel Wireless-AC 9560NGW | Drivers absent for macOS. Should replaced |
+| ``WiFi`` | Intel Wireless-AC 9560NGW | I've replaced with DW1560 (BCM94352Z) |
 | ``Input & Output`` | USB 3.1 Gen 1 (USB-A) x3 | No issues |
 | | Thunderbolt 3 (USB-C) | No issues |
 | | HDMI 2.0B | HDMI connected directly to Nvidia GPU and will not work in macOS |
