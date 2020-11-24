@@ -37,7 +37,7 @@ Though you can just grab and use this if you have same or very similar laptop mo
 
 ## Hmmm...
 
-* Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (I use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
+* Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
 
 * If you're using BCM9432Z Wifi card... Enable AirportBrcmFixup.kext(wifi) and all BrcmPatchRAM(bluetooth) kexts in config.plist
 
@@ -138,7 +138,7 @@ and you must have some research then...
 
 ### Specific things
 
-* **BIOS** You will have to change DVMT pre-alloc size to 64mb, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
+* **BIOS** You will have to change DVMT pre-alloc size to 64MB, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - [GPI0 Pinning](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning), and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
 
 ---
