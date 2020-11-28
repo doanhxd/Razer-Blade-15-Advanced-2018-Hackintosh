@@ -11,9 +11,9 @@ SUPPORT
 Intro
 ---
 
-## Big Sur Updated
-
 ![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
+
+## Big Sur Updated
 
 ![1](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/BigSur.png)
 
@@ -110,7 +110,7 @@ The bundled ``WiFI`` and ``NVMe`` is not compatible with macOS and should be rep
 macOS have native support and works better with 4k blocks. Check **NVMe format**.
 Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12). Samsung EVO 970 1Tb NVMe and Sabrent Rocket 1Tb NMVe have the same Read/Write performance. But Samsung EVO stays about 8-12° C hotter on heave load. Even with additional passive cooling.
 
-**Note: I do recommend to use at least 1Tb NVMe for dual boot with Windows 10.**
+**Note: I do recommend to use at least 1TB NVMe for dual boot with Windows 10.**
 
 **RAM**
 
