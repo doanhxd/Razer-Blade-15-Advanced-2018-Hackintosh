@@ -56,7 +56,7 @@ Hardware
 | ``Memory`` | 16GB dual-channel DDR4-2667MHz, up to 32GB | No issues |
 | ``GPU`` | Intel UHD Graphics 630 | No issues |
 | ``dGPU`` | Nvidia 1060 Max-Q (6GB GDDR5 VRAM) | Nvidia Drivers absent for Catalina. ACPI should be patched to disable dGPU |
-| ``Storage`` | Samsung SM961 256GB NVMe M.2 | I've replaced with Kingston A2000 to update Big Sur  |
+| ``Storage`` | Samsung SM961 256GB NVMe M.2 | No issues |
 | ``Screen`` | 15.6" Full HD 60Hz, 1920 x 1080 IPS |  No issues |
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
 | ``WiFi`` | Intel Wireless-AC 9560NGW | No issues, using [itlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases). I've replaced with DW1560 (BCM94352Z) |
