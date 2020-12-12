@@ -1,4 +1,4 @@
-# Razer Blade 15 Advanced 2018 Hackintosh - OpenCore (Big Sur - 11.1 Beta)
+# Razer Blade 15 Advanced 2018 Hackintosh - OpenCore (Big Sur - 11.1)
 **Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS GUIDE!**
 
 SUPPORT
@@ -23,8 +23,8 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 | ---: | :--- |
 | ``OpenCore`` | 0.6.3 (RELEASE) |
 | ``Catalina`` | 10.15.7 (19H15) |
-| ``OpenCore`` | 0.6.4 (DEBUG) |
-| ``Big Sur`` | 11.1 Beta (20C5061b) |
+| ``OpenCore`` | 0.6.5 (DEBUG) |
+| ``Big Sur`` | 11.1 (20C69) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
