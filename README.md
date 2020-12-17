@@ -10,8 +10,8 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
 | | Version |
 | ---: | :--- |
-| ``OpenCore`` | 0.6.3 (RELEASE) |
-| ``Catalina`` | 10.15.7 (19H15) |
+| ``OpenCore`` | 0.6.4 (RELEASE) |
+| ``Catalina`` | 10.15.7 (19H114) |
 | - | - |
 | ``OpenCore`` | 0.6.5 (DEBUG) |
 | ``Big Sur`` | 11.1 (20C69) |
