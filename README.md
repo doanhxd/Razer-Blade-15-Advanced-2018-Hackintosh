@@ -1,21 +1,10 @@
 # Razer Blade 15 Advanced 2018 Hackintosh - OpenCore (Big Sur - 11.1)
 **Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS GUIDE!**
 
-SUPPORT
----
-
-**I have no access anymore to Razer Blade notebooks and not be able to test properly and update documentation.**
-
-**I open for any cooperation and will try maintain this repository as much as possible. Please feel free to create Pull Requests.**
-
 Intro
 ---
 
 ![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
-
-## Big Sur Updated
-
-![1](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/BigSur.png)
 
 This BIOS is actual only for Razer Blade 15 Advanced (2018)
 
@@ -31,6 +20,7 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 | ``MCU FW`` | 1.00.00.00 |
 
 ## Disclaimer
+
 This repository has no other purpose but sharing.
 I want to share my hackintosh configuration for this particular laptop with the whole world.
 This is not a step by step guide, rather a thing that can greatly help you on your way of turning this or similar laptop into a hackintosh.
@@ -40,10 +30,7 @@ Though you can just grab and use this if you have same or very similar laptop mo
 
 * Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
 
-* If you're using BCM9432Z Wifi card... Enable AirportBrcmFixup.kext(wifi) and all BrcmPatchRAM(bluetooth) kexts in config.plist
-
 * Create one-key cpufriend if you often use battery, power-plug always is not recommended for best performance 
-
 
 Hardware
 ---
@@ -62,16 +49,16 @@ Hardware
 | ``Webcam`` | Windows Hello built-in IR HD webcam (1MP / 720P) |  No issues. Windows Hello is not supported in macOS |
 | ``WiFi`` | Intel Wireless-AC 9560NGW | No issues, using [itlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases) and [Heliport](https://github.com/OpenIntelWireless/HeliPort/releases). I've replaced with DW1560 (BCM94352Z) |
 | ``Input & Output`` | USB 3.1 Gen 1 (USB-A) x3 | No issues |
-| | Thunderbolt 3 (USB-C) | No issues |
-| | HDMI 2.0B | HDMI connected directly to Nvidia GPU and will not work in macOS |
-| | Mini DisplayPort 1.4 | Mini DisplayPort connected directly to Nvidia GPU and will not work in macOS |
+| - | Thunderbolt 3 (USB-C) | No issues |
+| - | HDMI 2.0B | HDMI connected directly to Nvidia GPU and will not work in macOS |
+| - | Mini DisplayPort 1.4 | Mini DisplayPort connected directly to Nvidia GPU and will not work in macOS |
 | ``Soundboard`` | Realtek ALC298 | No issues. ACPI patch should be added to solve sleep issue |
 | ``Battery`` | 80Wh | About 3-5h after proper Power Management configuration.  ACPI should be patched to enable battery stats |
 | ``Keyboard`` | Per-key RGB powered by Razer Chroma N-Key rollover backlit | No issues. Original Razer Chroma software absent for macOS. Many thanks to [BlvckBytes](https://github.com/BlvckBytes) for [MenuBar app](https://github.com/BlvckBytes/RazerControl/releases) to control Razer Blade keyboard and logo RGB lighting |
 | ``Touchpad`` | Precision Glass | No issues. ACPI should be patched to enable trackpad |
-| ``Dimensions`` | 17.8mm x 235mm x 355mm | |
+| ``Dimensions`` | 17.8mm x 235mm x 355mm | - |
 | ``Weight`` | 2.21 kg | ACPI patches will not help with this. |
-| ``Power`` | 230W power adapter | |
+| ``Power`` | 230W power adapter | - |
 
 Hardware Upgrades and Tools
 ---
