@@ -13,7 +13,7 @@ This BIOS is actual only for Razer Blade 15 Advanced (2018)
 | ``OpenCore`` | 0.6.4 (RELEASE) |
 | ``Catalina`` | 10.15.7 (19H114) |
 | - | - |
-| ``OpenCore`` | 0.6.5 (DEBUG) |
+| ``OpenCore`` | 0.6.5 (RELEASE) |
 | ``Big Sur`` | 11.1 (20C69) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
@@ -128,9 +128,3 @@ and you must have some research then...
 
 * **BIOS** You will have to change DVMT pre-alloc size to 64MB, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
 * **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - [GPI0 Pinning](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning), and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
-
----
-
-### Todo
-1. Updated macOS Big Sur (Done)...
-2. Updated 10.15.7 (19H15) with OpenCore 0.6.3 RELEASE...
