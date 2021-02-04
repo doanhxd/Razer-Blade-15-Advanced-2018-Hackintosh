@@ -1,43 +1,55 @@
-# Razer Blade 15 Advanced 2018 Hackintosh - OpenCore (Big Sur - 11.1)
+# Razer Blade 15 Advanced 2018 - Hackintosh
 **Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS GUIDE!**
 
 Intro
 ---
 
-![About this Mac](https://github.com/doanhmaple/Razer-Blade-15-Advanced-2018-Hackintosh/raw/master/images/About_Mac.png)
+### 📸 Screenshots
+<details>
+<summary>About Mac</summary>
 
-This BIOS is actual only for Razer Blade 15 Advanced (2018)
+![About this Mac](_images/AboutMac.png)
+
+</details>
+<details>
+<summary>Big Sur</summary>
+
+<br>
+
+![Big Sur](_images/BigSur.png)
+
+</details>
+
+Hardware Upgrades and Tools
+---
+
+The bundled ``WiFI`` and ``NVMe`` is not compatible with macOS and should be replaced. Please find below the recommended replacement parts, already tested for compatibility. Usually I need to deploy for testing 4-5 node Kubernetes cluster with at least 4Gb per node. So 32GB is a necessary upgrade for me.
+
+
+### 📃 Hardware
+<details>
+<summary>BIOS</summary>
+
+**This BIOS is actual only for Razer Blade 15 Advanced (2018)**
 
 | | Version |
 | ---: | :--- |
 | ``OpenCore`` | 0.6.4 (RELEASE) |
 | ``Catalina`` | 10.15.7 (19H114) |
 | - | - |
-| ``OpenCore`` | 0.6.5 (RELEASE) |
-| ``Big Sur`` | 11.1 (20C69) |
+| ``OpenCore`` | 0.6.6 (RELEASE) |
+| ``Big Sur`` | 11.2 (20D64) |
 | ``System BIOS`` | 1.08 |
 | ``EC FW`` | 1.02 |
 | ``MCU FW`` | 1.00.00.00 |
 
-## Disclaimer
+</details>
+<details>
+<summary>Razer Blade Advanced 2018 - RZ09-02385</summary>
 
-This repository has no other purpose but sharing.
-I want to share my hackintosh configuration for this particular laptop with the whole world.
-This is not a step by step guide, rather a thing that can greatly help you on your way of turning this or similar laptop into a hackintosh.
-Though you can just grab and use this if you have same or very similar laptop model, I greatly encourage you not do so, but instead read all the things I will mention below and get some knowledge.
+<br>
 
-## Hmmm...
-
-* Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
-
-* Create one-key cpufriend if you often use battery, power-plug always is not recommended for best performance 
-
-Hardware
----
-
-**Razer Blade 15 Advanced 2018 - RZ09-02385**
-
-| | Specifications | macOS 10.15 Catalina & Big Sur compatibility |
+| | Specifications | macOS 11 Big Sur Compatibility |
 | ---: | :--- | :--- |
 | ``Chipset`` | Mobile Intel HM370 | No issues |
 | ``CPU`` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues |
@@ -60,13 +72,13 @@ Hardware
 | ``Weight`` | 2.21 kg | ACPI patches will not help with this. |
 | ``Power`` | 230W power adapter | - |
 
-Hardware Upgrades and Tools
----
+</details>
 
-The bundled ``WiFI`` and ``NVMe`` is not compatible with macOS and should be replaced. Please find below the recommended replacement parts, already tested for compatibility. Usually I need to deploy for testing 4-5 node Kubernetes cluster with at least 4Gb per node. So 32GB is a necessary upgrade for me.
+### 🛠 Tools
+<details>
+<summary>Accessories</summary>
 
-
-**Accessories**
+<br>
 
 | Accessories | Description | Amazon URL |
 | ---: | :--- | :--- |
@@ -74,15 +86,22 @@ The bundled ``WiFI`` and ``NVMe`` is not compatible with macOS and should be rep
 | ``USB storage`` with at least 16GB storage | Installation USB media | [Amazon](https://www.amazon.com/gp/product/B076GXJJRD/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) |
 | ``USB-A to USB-C cable`` | For USB ports detection procedure | [Amazon](https://www.amazon.com/AmazonBasics-Type-C-Gen1-Female-Adapter/dp/B01GGKYXVE/ref=pd_hpb_a2a_sims_6/130-2479265-2893400?_encoding=UTF8&pd_rd_i=B01GGKYYT0&pd_rd_r=54b9f737-919c-11e9-b9d7-6915ce2a8dc3&pd_rd_w=j9bw6&pd_rd_wg=IVvh1&pf_rd_p=bfc589eb-d865-496f-a10b-5e00902c2113&pf_rd_r=G68JVK6HBAFKEDA75MYY&refRID=G68JVK6HBAFKEDA75MYY&th=1) |
 
+</details>
+<details>
+<summary>Wireless Card</summary>
 
-**WiFi**
+<br>
 
-| WiFi module | Description | eBay or AliExpress URL | Confirmation |
+| WiFi Module | Description | eBay or AliExpress URL | Confirmation |
 | ---: | :--- | :--- | :--- |
 | ``BCM94352Z (DW-1560)`` | Recommended. 2 antennas. No issues. Additional kext's are required. Easily to find for \$24-60 on | [eBay](https://www.ebay.com/sch/i.html?_from=R40&_nkw=BCM94352Z+DW-1560&_sacat=0&rt=nc&LH_BIN=1) | [community](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 | ``BCM943602BAED (DW-1830)`` | 3 antennas. RBA have only 2. Works out of the box. About \$60-120 on AliExpress | [AliExpress](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20190707194727&SearchText=BCM943602BAED+DW1830&switch_new_app=y) | [community](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-catalina/) |
 
-**Storage**
+</details>
+<details>
+<summary>Storages</summary>
+
+**Note: I do recommend to use at least 1TB NVMe for dual boot with Windows 10.**
 
 | NVMe | 4k Support | Amazon URL | Confirmation |
 | ---: | :--- | :--- | :--- |
@@ -94,37 +113,74 @@ The bundled ``WiFI`` and ``NVMe`` is not compatible with macOS and should be rep
 | ``HP EX900 M.2 NVMe`` | - | [Amazon](https://www.amazon.com/HP-EX900-Internal-Solid-5Xm46Aa/dp/B07MFBNMF1/ref=sr_1_3?keywords=HP+EX900+NVME+1TB+drive&qid=1561283379&s=gateway&sr=8-3) | [konohasaint](https://www.tonymacx86.com/members/konohasaint.88998/) |
 | ``Samsung PM981`` | NO | Bundled with Razer Blade | [suyukai](https://www.tonymacx86.com/members/suyukai.2249983/) |
 
+</details>
+<details>
+<summary>RAM</summary>
 
-macOS have native support and works better with 4k blocks. Check **NVMe format**.
-Performance tested with [Blackmagic Disk Speed Test](https://apps.apple.com/us/app/blackmagic-disk-speed-test/id425264550?mt=12). Samsung EVO 970 1Tb NVMe and Sabrent Rocket 1Tb NMVe have the same Read/Write performance. But Samsung EVO stays about 8-12° C hotter on heave load. Even with additional passive cooling.
-
-**Note: I do recommend to use at least 1TB NVMe for dual boot with Windows 10.**
-
-**RAM**
+<br>
 
 | Memory module | Modules size | Speed | CL | Amazon URL | Confirmation |
 | ---: | :--- | :--- | :--- | :--- | :--- |
 | ``Ballistix Sport LT 32GB`` | 2x16Gb | 2666 | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/) |
 | ``Kingston Technology HyperX Impact 32GB`` | 2x16Gb | 2666 | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
 
-## Gratitude
+</details>
+
+Credits
+---
+
+### 🔄 Usage
+<details>
+<summary>How to install</summary>
+
+1. Use [stonevil's](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock) guide for modding BIOS
+
+2. Fill the [SMBIOS](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) section in EFI folder
+
+3. Use [OpenCore Vanilla Laptop guide](https://dortania.github.io/OpenCore-Install-Guide) to doing config.plist and create Bootable USB
+
+<details>
+<summary>~Extra~</summary>
+
+* Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
+
+* Create [one-key cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend) if you often use battery, power-plug always is not recommended for best battery life
+
+</details>
+
+</details>
+
+### 😇 Gratitude
+<details>
+<summary>Credits</summary>
 
 * [Dortania](https://dortania.github.io/) - for Vanilla guides
 * [Acidanthera](https://github.com/acidanthera) - for OpenCore and lots of kexts
 * [RehabMan](https://github.com/RehabMan) - for ACPI patching guides
 * [Stonevil](https://github.com/stonevil) - for BIOS mod and hardware suggestions
 
-### Where to begin
+</details>
 
-**Use stonevil's guide for modding BIOS**
-* [Razer Blade Advanced early 2019 macOS 10.14/10.15 Hackintosh](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
+### 📩 Specific things
+<details>
+<summary>Helpful Utilities</summary>
 
-**Use Dortania's guide for doing config.plist and create Bootable USB**
+* [MountEFI](https://github.com/corpnewt/MountEFI) - Help to mount /EFI folder
+* [ProperTree](https://github.com/corpnewt/MountEFI) - The way to open and edit config.plist
+* [USBMap](https://github.com/corpnewt/USBMap) - Tool to make a USB Map
+* [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) - Apple serial generator
+* [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) - To update kexts
 
-* [OpenCore Vanilla laptop guide](https://dortania.github.io/OpenCore-Install-Guide)
-and you must have some research then...
+</details>
+<details>
+<summary>BIOS</summary>
 
-### Specific things
+You will have to change DVMT pre-alloc size to 64MB, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
 
-* **BIOS** You will have to change DVMT pre-alloc size to 64MB, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
-* **GPIO pinning** There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - [GPI0 Pinning](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning), and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
+</details>
+<details>
+<summary>GPIO Pinning</summary></summary>
+
+There are hotpatches & ssdts that might be specific for a particular laptop, I think trackpad GPIO pinning might be one of them, please check your pin number as per - [GPI0 Pinning](https://voodooi2c.github.io/#GPIO%20Pinning/GPIO%20Pinning), and modify SSDT-I2C if needed (currently pin number is set to 0x64 in there)
+
+</details>
