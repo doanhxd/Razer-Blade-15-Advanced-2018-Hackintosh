@@ -39,6 +39,7 @@ The bundled `WiFI` and `NVMe` is not compatible with macOS and should be replace
 |             - | -                |
 |    `OpenCore` | 0.7.1 (RELEASE)  |
 |     `Big Sur` | 11.5.1 (20G80)   |
+|`Monterey Beta`| 12.0  (21A5294g) |
 | `System BIOS` | 1.08             |
 |       `EC FW` | 1.02             |
 |      `MCU FW` | 1.00.00.00       |
