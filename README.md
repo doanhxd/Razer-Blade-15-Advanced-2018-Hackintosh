@@ -1,4 +1,4 @@
-# Razer Blade 15 Advanced 2018 - Hackintosh
+# Razer Blade 15 Advanced 2018 - Hackintosh (macOS)
 
 **Note: I WILL NOT RESPONSIBLE IF YOU MESS UP YOUR COMPUTER USING THIS GUIDE!**
 
