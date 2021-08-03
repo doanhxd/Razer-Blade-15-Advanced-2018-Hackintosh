@@ -25,7 +25,7 @@
 
 <br>
 
-![Monterey]](_images/Monterey.png)
+![Monterey](_images/Monterey.png)
 
 </details>
 
