@@ -12,7 +12,7 @@
 ![About this Mac](_images/AboutMac.png)
 
 <details>
-<summary>Monterey</summary>
+<summary>Extra~ Monterey</summary>
 
 ![AboutMonterey](_images/AboutMonterey.png)
 
