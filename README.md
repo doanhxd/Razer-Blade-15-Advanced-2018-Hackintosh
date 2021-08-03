@@ -11,7 +11,14 @@
 
 ![About this Mac](_images/AboutMac.png)
 
+<details>
+<summary>Monterey</summary>
+
+![AboutMonterey](_images/AboutMonterey.png)
+
 </details>
+</details>
+
 <details>
 <summary>Big Sur</summary>
 
