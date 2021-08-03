@@ -20,6 +20,14 @@
 ![Big Sur](_images/BigSur.png)
 
 </details>
+<details>
+<summary>Monterey</summary>
+
+<br>
+
+![Monterey]](_images/Monterey.png)
+
+</details>
 
 ## Hardware Upgrades and Tools
 
