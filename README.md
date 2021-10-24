@@ -12,21 +12,13 @@
 ![About this Mac](_images/AboutMac.png)
 
 <details>
-<summary>Extra~ Monterey</summary>
+<summary>Extra~ About Big Sur</summary>
 
-![AboutMonterey](_images/AboutMonterey.png)
-
-</details>
-</details>
-
-<details>
-<summary>Big Sur</summary>
-
-<br>
-
-![Big Sur](_images/BigSur.png)
+![AboutMonterey](_images/AboutBigSur.png)
 
 </details>
+</details>
+
 <details>
 <summary>Monterey</summary>
 
@@ -35,10 +27,18 @@
 ![Monterey](_images/Monterey.png)
 
 </details>
+<details>
+<summary>Big Sur</summary>
+
+<br>
+
+![Big Sur](_images/BigSur.png)
+
+</details>
 
 ## Hardware Upgrades and Tools
 
-The bundled `WiFI` and `NVMe` is not compatible with macOS and should be replaced. Please find below the recommended replacement parts, already tested for compatibility. Usually I need to deploy for testing 4-5 node Kubernetes cluster with at least 4Gb per node. So 32GB is a necessary upgrade for me.
+The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replaced. Please find below the recommended replacement parts, already tested for compatibility. Usually I need to deploy for testing 4-5 node Kubernetes cluster with at least 4Gb per node. So 32GB is a necessary upgrade for me.
 
 ### 📃 Hardware
 
@@ -47,17 +47,17 @@ The bundled `WiFI` and `NVMe` is not compatible with macOS and should be replace
 
 **This BIOS is actual only for Razer Blade 15 Advanced (2018)**
 
-|                 | Version          |
-| --------------: | :--------------- |
-|      `OpenCore` | 0.6.4 (RELEASE)  |
-|      `Catalina` | 10.15.7 (19H114) |
-|               - | -                |
-|      `OpenCore` | 0.7.1 (RELEASE)  |
-|       `Big Sur` | 11.5.2 (20G95)   |
-| `Monterey Beta` | 12.0 (21A5294g)  |
-|   `System BIOS` | 1.08             |
-|         `EC FW` | 1.02             |
-|        `MCU FW` | 1.00.00.00       |
+|                 | Version              |
+| --------------: | :------------------- |
+|      `OpenCore` | 0.6.4 (RELEASE)      |
+|      `Catalina` | 10.15.7 (19H114)     |
+|               - | -                    |
+|      `OpenCore` | 0.7.5 (DEBUG)        |
+|       `Big Sur` | 11.6 (20G165)        |
+| `Monterey Beta` | 12.0 Beta (21A5552a) |
+|   `System BIOS` | 1.08                 |
+|         `EC FW` | 1.02                 |
+|        `MCU FW` | 1.00.00.00           |
 
 </details>
 <details>
