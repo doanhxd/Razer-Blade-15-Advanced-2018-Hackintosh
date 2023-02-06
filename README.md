@@ -47,17 +47,20 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 
 **This BIOS is actual only for Razer Blade 15 Advanced (2018)**
 
-|                 | Version              |
-| --------------: | :------------------- |
-|      `OpenCore` | 0.6.4 (RELEASE)      |
-|      `Catalina` | 10.15.7 (19H114)     |
-|               - | -                    |
-|      `OpenCore` | 0.7.5 (DEBUG)        |
-|       `Big Sur` | 11.6 (20G165)        |
-| `Monterey Beta` | 12.0 Beta (21A5552a) |
-|   `System BIOS` | 1.08                 |
-|         `EC FW` | 1.02                 |
-|        `MCU FW` | 1.00.00.00           |
+|               | Version          |
+| ------------: | :--------------- |
+|    `OpenCore` | 0.6.4 (RELEASE)  |
+|    `Catalina` | 10.15.7 (19H114) |
+|             - | -                |
+|    `OpenCore` | 0.7.5 (DEBUG)    |
+|     `Big Sur` | 11.7.1 (20G918)  |
+|    `Monterey` | 12.6.1 (21G217)  |
+|             - | -                |
+|    `OpenCore` | 0.8.7 (RELEASE)  |
+|     `Ventura` | 13.0.1 (22A400)  |
+| `System BIOS` | 1.08             |
+|       `EC FW` | 1.02             |
+|      `MCU FW` | 1.00.00.00       |
 
 </details>
 <details>
@@ -65,7 +68,7 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 
 <br>
 
-|                  | Specifications                                                                  | macOS 11 Big Sur Compatibility                                                                                                                                                                                                                      |
+|                  | Specifications                                                                  | macOS 13 Ventura Compatibility                                                                                                                                                                                                                      |
 | ---------------: | :------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |        `Chipset` | Mobile Intel HM370                                                              | No issues                                                                                                                                                                                                                                           |
 |            `CPU` | Intel Core i7-8750H processor, 6 Cores / 12 Threads, 2.2GHz / 4.1GHz, 9MB Cache | No issues                                                                                                                                                                                                                                           |
@@ -152,14 +155,16 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 
 1. Use [stonevil's](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock) guide for modding BIOS
 
-2. Fill the [SMBIOS](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) section in EFI folder
+2. Fill the [SMBIOS](https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html#generate-a-new-serial) section at PlatformInfo in config.plist file
 
 3. Use [OpenCore Vanilla Laptop guide](https://dortania.github.io/OpenCore-Install-Guide) to doing config.plist and create Bootable USB
 
 <details>
 <summary>~Extra~</summary>
 
-- Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience (uncheck SSDT-USBX-LAPTOP in config.plist or remove it when using USBMap/USBPort.kext)
+- Please create [USBMap](https://github.com/corpnewt/USBMap) or `USBPort.kext` (Use Hackintool to do this) after install for best USB plug experience
+
+- Extra Method to Mapping USB Ports is using [USBToolBox](https://github.com/USBToolBox/kext) on Windows, the method is similar to [USBMap](https://github.com/corpnewt/USBMap) but you can mapping your USB Ports on Windows.
 
 - Create [one-key cpufriend](https://github.com/stevezhengshiqi/one-key-cpufriend) if you often use battery, power-plug always is not recommended for best battery life
 
@@ -186,6 +191,7 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 
 - [MountEFI](https://github.com/corpnewt/MountEFI) - Help to mount /EFI folder
 - [ProperTree](https://github.com/corpnewt/MountEFI) - The way to open and edit config.plist
+- [USBToolBox](https://github.com/USBToolBox/kext) - Tool to Mapping USB Ports right on Windows
 - [USBMap](https://github.com/corpnewt/USBMap) - Tool to make a USB Map
 - [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) - Apple serial generator
 - [Lilu-and-Friends](https://github.com/corpnewt/Lilu-and-Friends) - To update kexts
@@ -195,6 +201,12 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 <summary>BIOS</summary>
 
 You will have to change DVMT pre-alloc size to 64MB, and you can't do that via stock BIOS, please see how-to in here - [BIOS Unlock - stonevil](https://github.com/stonevil/Razer_Blade_Advanced_early_2019_Hackintosh#bios-unlock)
+
+</details>
+<details>
+<summary>WiFi + Bluetooth</summary></summary>
+
+You have to find out your WiFi Card to attach kexts to the EFI and config.plist
 
 </details>
 <details>
