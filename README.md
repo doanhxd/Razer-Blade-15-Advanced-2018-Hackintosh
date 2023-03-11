@@ -56,8 +56,8 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 |     `Big Sur` | 11.7.1 (20G918)  |
 |    `Monterey` | 12.6.1 (21G217)  |
 |             - | -                |
-|    `OpenCore` | 0.8.7 (RELEASE)  |
-|     `Ventura` | 13.0.1 (22A400)  |
+|    `OpenCore` | 0.9.0 (RELEASE)  |
+|     `Ventura` | 13.2.1 (22D68)   |
 | `System BIOS` | 1.08             |
 |       `EC FW` | 1.02             |
 |      `MCU FW` | 1.00.00.00       |
@@ -139,7 +139,7 @@ The bundled `WiFi` and `NVMe` is not compatible with macOS and should be replace
 
 <br>
 
-|                            Memory module | Modules size | Speed | CL   | Amazon URL                                                                                                           | Confirmation                                                                                                               |
+|                            Memory module | Modules size | Speed | CL   | Amazon                                                                                                               | Confirmation                                                                                                               |
 | ---------------------------------------: | :----------- | :---- | :--- | :------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------- |
 |                `Ballistix Sport LT 32GB` | 2x16Gb       | 2666  | CL16 | [Amazon](https://www.amazon.com/gp/product/B06XRBS4Y5/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1)              | [stonevil](https://www.tonymacx86.com/members/stonevil.254235/)                                                            |
 | `Kingston Technology HyperX Impact 32GB` | 2x16Gb       | 2666  | CL15 | [Amazon](https://www.amazon.com/dp/B01NAL3TYY/?coliid=I3Q9P4ZU9V435H&colid=1ZGSQH2G88154&psc=1&ref_=lv_ov_lig_dp_it) | [Razer Blade 15 Advanced RAM upgrade](https://www.reddit.com/r/razer/comments/c1c9wl/razer_blade_15_advanced_ram_upgrade/) |
